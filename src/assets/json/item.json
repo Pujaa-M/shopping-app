@@ -1,0 +1,112 @@
+{
+  "dresses": [
+    {
+      "title": "Jean",
+      "cost": "700",
+      "img": "images/jean-card.jpg"
+    },
+    {
+      "title": "Skirt",
+      "cost": "600",
+      "img": "images/skirt-card.jpeg"
+    },
+    {
+      "title": "T-Shirt",
+      "cost": "500",
+      "img": "images/tshirt-card.jpeg"
+    },
+    {
+      "title": "Blazer",
+      "cost": "1000",
+      "img": "images/blazer-card.jpg"
+    }
+  ],
+  "footwear": [
+    {
+      "title": "Boots",
+      "cost": "1000",
+      "img": "images/boots-card.jpg"
+    },
+    {
+      "title": "Sneakers",
+      "cost": "600",
+      "img": "images/sneakers-card.jpg"
+    },
+    {
+      "title": "Wedges",
+      "cost": "800",
+      "img": "images/wedges-card.jpg"
+    },
+    {
+      "title": "Platforms",
+      "cost": "900",
+      "img": "images/platforms-card.jpg"
+    }
+  ],
+  "electronics": [
+    {
+      "title": "TV",
+      "cost": "100000",
+      "img": "images/tv-card.jpg"
+    },
+    {
+      "title": "Speakers",
+      "cost": "800",
+      "img": "images/speaker-card.jpg"
+    },
+    {
+      "title": "Phone",
+      "cost": "50000",
+      "img": "images/phone-card.jpg"
+    },
+    {
+      "title": "Laptop",
+      "cost": "70000",
+      "img": "images/laptop-card.jpg"
+    }
+  ],
+  "cosmetics": [
+    {
+      "title": "Lip Gloss",
+      "cost": "500",
+      "img": "images/lipGloss-card.jpg"
+    },
+    {
+      "title": "Eye Liner",
+      "cost": "300",
+      "img": "images/eyeliner-card.jpg"
+    },
+    {
+      "title": "Blush",
+      "cost": "300",
+      "img": "images/blush-card.jpg"
+    },
+    {
+      "title": "Foundation",
+      "cost": "500",
+      "img": "images/foundation-card.jpg"
+    }
+  ],
+  "furniture": [
+    {
+      "title": "Couch",
+      "cost": "15000",
+      "img": "images/couch-card.jpg"
+    },
+    {
+      "title": "Bed",
+      "cost": "25000",
+      "img": "images/bed-card.jpg"
+    },
+    {
+      "title": "Swing",
+      "cost": "7000",
+      "img": "images/swing-card.jpg"
+    },
+    {
+      "title": "Table",
+      "cost": "10000",
+      "img": "images/table-card.jpg"
+    }
+  ]
+}

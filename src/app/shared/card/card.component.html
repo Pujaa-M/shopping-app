@@ -1,0 +1,23 @@
+<div class="cardContainer" [ngStyle]="backgroundImage">
+  <ng-container *ngIf="cartData.id; else itemDataPresent">
+    <h2 class="title">{{cartData.title}}</h2>
+    <h4 class="cost">&#x20b9;{{cartData.cost}}</h4>
+  </ng-container>
+
+  <ng-template #itemDataPresent>
+    <h2 class="title">{{itemData.title}}</h2>
+    <h4 class="cost">&#x20b9;{{itemData.cost}}</h4>
+  </ng-template>
+
+  <p *ngIf="cartData.id" class="quantity">Quantity: {{cartData.quantity}}</p>
+
+  <ng-container *ngIf="buttonName === cartButtonNames.ADD_TO_CART; else cartRemove">
+    <button class="cartButton" (click)="addToCart(itemData)">{{buttonName | uppercase}}</button>
+  </ng-container>
+
+  <ng-template #cartRemove>
+    <button class="cartButton" (click)="removeFromCart(cartData.id)">{{buttonName | uppercase}}</button>
+  </ng-template>
+</div>
+
+<ng-template #popupContainer></ng-template>

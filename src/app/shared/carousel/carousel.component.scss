@@ -1,0 +1,29 @@
+@import '../../../assets/variables.scss';
+
+.carouselContainer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5px;
+  transition: 0.3s linear;
+
+  &:hover {
+    height: 250px;
+  }
+
+  .title {
+    font-weight: 100;
+    color: $carousel-text;
+  }
+
+  .description {
+    position: relative;
+    color: $carousel-text;
+  }
+}

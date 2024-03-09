@@ -1,0 +1,8 @@
+<div class="homePage">
+  <div class="carousels">
+    <carousel [carouselBackground]="carousel.bg" *ngFor="let carousel of carouselData" (click)="getItemsList(carousel.title.toLowerCase())">
+      <span title>{{carousel.title}}</span>
+      <span description>{{carousel.description}}</span>
+    </carousel>
+  </div>
+</div>

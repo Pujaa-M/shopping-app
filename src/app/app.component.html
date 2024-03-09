@@ -1,0 +1,7 @@
+<div class="container">
+  <nav-bar></nav-bar>
+  <div class="rightContent">
+    <span (click)="routeToCart()" [attr.count]=cartCount class="cartContainer"><img class="cart" [src]="cartURL"/></span>
+    <router-outlet></router-outlet>
+  </div>
+</div>

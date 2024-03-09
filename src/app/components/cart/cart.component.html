@@ -1,0 +1,19 @@
+<ng-container *ngIf="cartData.length; else emptyTemplate">
+  <div class="container">
+    <div class="cartContainer">
+      <ng-container *ngFor="let cart of cartData">
+        <card [cartData]="cart" [buttonName]="cardButtonName"></card>
+      </ng-container>
+    </div>
+    <div class="totalCost">
+      <h3 class="costDisplay">Total: &#x20b9;{{totalCost}}</h3>
+    </div>
+  </div>
+</ng-container>
+
+<ng-template #emptyTemplate>
+  <div class="emptyCartContainer">
+    <img class="empty-logo" [src]="logoUrl"/>
+    <h2 class="empty-msg">The cart is empty.</h2>
+  </div>
+</ng-template>

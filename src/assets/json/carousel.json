@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Dresses",
+    "description": "Latest collection and new arrival",
+    "bg": "images/dress-carousel-bg.jpeg"
+  },
+  {
+    "title": "Footwear",
+    "description": "Footwear for every occasion",
+    "bg": "images/footwear-carousel-bg.jpg"
+  },
+  {
+    "title": "Electronics",
+    "description": "From mobile phones to TV available here",
+    "bg": "images/electronics-carousel-bg.jpg"
+  },
+  {
+    "title": "Cosmetics",
+    "description": "All new collections from Matte to Glitters",
+    "bg": "images/cosmetics-carousel-bg.jpg"
+  },
+  {
+    "title": "Furniture",
+    "description": "To stay and feel cozy",
+    "bg": "images/furniture-carousel-bg.jpeg"
+  }
+]
